@@ -1,0 +1,131 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2f117f;
+    margin: 0;
+    padding: 20px;
+}
+
+.header__h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.nav {
+    background-color: #6126ff;
+    width: 100px;
+}
+
+.nav__lista {
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav__link {
+    color: #ffffff;
+    font: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.section{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.section__h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.section__p {
+    color:#000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.form__campo {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form__input {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6126ff;
+    padding: 10px;
+}
+
+.form__select {
+    color: #6126ff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6126ff;
+    padding: 10px;
+}
+
+.form__enviar {
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #6126ff;
+    color: #f1d703;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form__limpar {
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border-width: 0;
+    color: #6126ff;
+    background-color: #f1d703;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #6126ff;
+    padding: 20px;
+}
+
+.footer__span {
+    font-size: 12px;
+    font-weight: 400;
+    color:#ffffff
+}

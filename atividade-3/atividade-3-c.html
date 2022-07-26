@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Atividade 3C: Formulário
+    </title>
+</head>
+
+<body>
+    <h1>
+        Cadastro
+    </h1>
+    <form>
+        <div>
+            <!--precisa dos ids e precisa colocar as barras no final das tag auto fechaveis também-->
+            <label>
+                Nome
+                <br>
+                <input type="text" name="nome" placeholder="Seu nome" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                E-mail
+                <br>
+                <input type="email" name="email" placeholder="email@dominio.com" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Senha
+                <br>
+                <input type="password" name="senha" placeholder="Sua senha" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                Idade
+                <br>
+                <input type="number" name="idade" placeholder="Sua idade" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            Estudante
+            <br>
+            <label>
+                <input type="radio" name="estudante" value="Sou estudante" required>
+                Sou estudante
+            </label>
+            <br>
+            <label>
+                <!--não precisa colocar required nos 2 campos do radio, só em um-->
+                <input type="radio" name="estudante" value="Não sou estudante" required>
+                Não sou estudante
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <input type="checkbox" name="termos_de_uso" required>
+                Aceito os termos de uso
+            </label>
+        </div>
+        <br>
+        <button> Enviar </button>
+    </form>
+</body>
+</html>

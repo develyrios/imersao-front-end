@@ -1,0 +1,50 @@
+body {
+    background-image: url("patternbackground.jpg");
+    background-repeat: repeat;
+}
+
+
+.titulo1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #333134;
+}
+
+.titulo2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #333134;
+}
+
+.paragrafo {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #333134;
+}
+
+.bloco1 {
+    width: 700px;
+    height: 500px;
+    margin: 30px;
+    padding: 50px;
+    background-image: url("padaria.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333134;
+    background-position: center center;
+}
+
+.bloco2 {
+    width: 700px;
+    height: 500px;
+    margin: 30px;
+    padding: 50px;
+    background-image: url("bolopreto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333134;
+    background-position: center center;
+}

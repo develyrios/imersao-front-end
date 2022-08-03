@@ -1,0 +1,35 @@
+body {
+    background-color: #fff;
+}
+
+.bloco1 {
+    width: 50%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.titulo1 {
+    color: rgb(97, 41, 150);
+    font-size: 25px;
+}
+
+.paragrafo1 {
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.bloco2 {
+    width: 25%;
+    height: 200px;
+    background-color: rgb(243, 217, 239);
+}
+
+.titulo2 {
+    color: palevioletred;
+    font-size: 25px;
+}
+
+.paragrafo2 {
+    color: orangered;
+    font-size: 15px;
+}

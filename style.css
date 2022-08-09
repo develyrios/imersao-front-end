@@ -1,0 +1,115 @@
+:root {
+    --inter: 'Inter', sans-serif;
+    --roxo-claro: #9771FF;
+    --roxo: #6127FF;
+    --roxo-escuro: #5A08FC;
+    --branco: #F3F3F3;
+    --cinza: #D9D9D9;
+    --preto: #1B1B1B;
+}
+
+body {
+    font-family: var(--inter);
+    background-color: var(--branco);
+}
+
+.regular {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.semi-bold {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    
+}
+
+.fonte-branca {
+    color: var(--branco);
+}
+
+.fonte-preta {
+    color: var(--preto);
+}
+
+.bg-roxoClaro {
+    background-color: var(--roxo-claro);
+}
+
+.bg-roxo {
+    background-color: var(--roxo);
+}
+
+.bg-roxoEscuro {
+    background-color: var(--roxo-escuro);
+}
+
+.bg-cinza {
+    background-color: var(--cinza);
+}
+
+.fotoDePerfil {
+    width: 4rem;
+}
+
+main section:first-child {
+    background-image: url('./imgs/polvinhos-header-esquerda.svg'), url('./imgs/polvinhos-header-direita.svg');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    padding: 0 50px
+}
+
+main section:nth-child(2) {
+    row-gap: 2rem;
+    margin: 2rem;
+}
+
+.card {
+    row-gap: 1rem;
+    width: 18rem;
+}
+
+.card-body .btn {
+    min-width: 7rem;
+    transition: 200ms;
+}
+
+.card-body .btn:hover {
+    transform: scale(1.2);
+    background-color: var(--roxo-claro);
+    color: var(--branco);
+}
+
+.card-body .btn:active {
+    transform: scale(0.975);
+    background-color: var(--roxo-claro);
+    color: var(--branco);
+}
+
+.badge {
+    width: fit-content;
+}
+
+.atividadesLinks {
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+footer section {
+    background-image: url('./imgs/polvinhos-footer-esquerda.svg'), url('./imgs/polvinhos-footer-direita.svg');
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+.text-footer {
+    font-size: 16px;
+    line-height: 19px;
+}
